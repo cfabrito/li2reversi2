@@ -1,6 +1,11 @@
 #include <stdio.h>
+
+void greet()
+{
+    printf("hi");
+}
 int main(int argc, char *argv[])
 {
-printf("Hello, reversi!");
+greet();
 return 0;
 }
